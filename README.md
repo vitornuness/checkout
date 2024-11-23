@@ -20,7 +20,7 @@ Antes de começar, você precisa ter os seguintes itens instalados em sua máqui
 ```bash
 git clone https://github.com/VitorNuness/checkout-inteligente-back.git
 
-cd checkout-inteligente-back/App
+cd checkout-inteligente-back
 ```
 
 ### Configurando o Banco de Dados
