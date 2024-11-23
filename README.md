@@ -37,13 +37,25 @@ Altere o `userid` e `password` para o usuário e a senha com permissões do seu 
 
 ### Executando as Migrações
 
+Navegue até o projeto de infraestrutura:
+
+```bash
+cd src/Checkout/Infra
+```
+
 Para criar as tabelas no banco de dados, utilize o comando:
 
 ```bash
-dotnet ef database update
+dotnet ef database update -s ../Presentation
 ```
 
 ### Executando o Projeto
+
+Navegue até o projeto de infraestrutura:
+
+```bash
+cd ../Presentation
+```
 
 Para executar o projeto, use o seguinte comando:
 
