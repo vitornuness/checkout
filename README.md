@@ -43,11 +43,19 @@ Navegue até o projeto de infraestrutura:
 cd src/Checkout/Infra
 ```
 
+Instalar ferramenta dotnet ef, caso não tenha:
+
+```bash
+dotnet tool install --global dotnet-ef
+```
+
 Para criar as tabelas no banco de dados, utilize o comando:
 
 ```bash
 dotnet ef database update -s ../Presentation
 ```
+
+Obs: Caso ocorra erro com o arquivo dotnet-tools.json, exclui-lo.
 
 ### Executando o Projeto
 
