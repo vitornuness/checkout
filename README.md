@@ -25,7 +25,7 @@ cd checkout-inteligente-back
 
 ### Configurando o Banco de Dados
 
-Após clonar o repositório, será necessário configurar a conexão com o banco em `appsettings.json`.
+Após clonar o repositório, será necessário configurar a conexão com o banco em `src/Checkout/Presentation/appsettings.json`.
 
 ```json
 "ConnectionStrings": {
